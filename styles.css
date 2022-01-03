@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #bdab98;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 40px;
+    margin-right: 50px;
+    color: #3f3019ea; 
+    padding: 15px 0px 15px 50px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #bdab98;
+    font-size: 60px;
+    margin: 20px;
+}
+
+h4 {
+    color: #3f3019ea; 
+    font-size: 22px;
+    text-align: center;
+    margin: 10px;
+}
+
+h5 {
+    margin: 10px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+
+strong {
+    color: #3f3019ea;
+    font-size: 25px;
+}
+
+.header {
+    box-shadow: 0px 2px 18px #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: #6F4E37;
+    width: 100%;
+    height: 120px;
+    
+}
+
+.main {
+    margin-top: 140px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.dif {
+    padding: 15px;
+    box-shadow: 0px 0px 14px rgb(70, 44, 29) ;
+    border-radius: 10px;
+    border:7px dotted #BD9579;
+}
+
+.child, .child-2 {
+    box-shadow: 0px 0px 14px rgb(70, 44, 29) ;
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    height: auto;
+    border:5px solid #BD9579;
+    box-sizing: border-box;
+}
+
+.child-2 {
+    width: 45.3%;
+    margin-left: 3%;
+    /* margin-right: 3%; */
+}
+
+@media (max-width: 800px) {
+    .child {
+        display:block;
+        width: 100%;
+        margin: 0px 0px 15px 0px;
+        border-radius: 10px;
+    }
+    .child-2 {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: 0;
+        border-radius: 10px;
+    }
+}
+
+
+
+.parent {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.list {
+    margin-left:65px;
+}
+
+.child p, .child-2 p {
+    margin: 15px;
+}
+
+.card {
+    background: #CDAE82;
+    border-radius: 15px;
+    border: 5px dashed #6F4E37;
+}
+
+
+.card p {
+    padding: 0px 15px 15px 15px;
+}
+
+
+.signature {
+    float: right;
+    text-align: center;
+}
+
+.table {
+    background: rgb(255, 242, 230);
+    margin: 10px 10px 20px 20px;
+}
+
+.table td {
+    border-collapse: collapse;
+    /* border: 2px solid rgb(44, 36, 36); */
+    padding: 2px;
+
+}
+
+.work, .gr, .conect {
+    margin: 2%;
+}
+
+.table p {
+    
+    padding: 0px 0px 0px 5px;
+    text-align: left;
+}
+
+.pic{
+    float: right; 
+    /* width: 100%; */
+    /* height: 100%; */
+    clear:both;   
+}
+
+textarea {
+    background: rgb(255, 242, 230);
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid #BD9579;
+    border-radius: 4px;
+    resize: none;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+input[type=text], input[type=email]{
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid #BD9579;
+    outline: none;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+input[type=text]:focus, input[type=email]:focus,textarea:focus{
+    border: 2px dotted #6F4E37;
+}
+.conect {
+    padding: 10px;
+}
+.form-group{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.form-group input{
+    padding: 10px;
+    margin: 5px;
+    background: rgb(255, 242, 230);
+
+}
+
+.btn {
+    /* box-shadow: 0 0 14px rgb(59, 59, 59); */
+    font-family: inherit;
+    font-size: 16px;
+    padding: 20px 10px;
+    color: rgb(255, 242, 230);
+    background: #754d319a;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid #795b45;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+
+.btn:focus{
+    box-shadow: none;
+
+    color: #6F4E37;
+    background: rgb(255, 242, 230);
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #6F4E37;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.footer {
+    background: #6F4E37;
+    padding: 10px;
+    color: rgb(255, 242, 230);
+}
+
+a {
+    color: rgb(255, 205, 159);
+    text-decoration: underline;
+}
+
+a:active{
+    color: rgb(175, 255, 151);
+    text-decoration: none;
+}
+
+a:visited{
+    color: #fd8f41;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bdab98;
+}
